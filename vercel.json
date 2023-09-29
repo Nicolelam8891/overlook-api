@@ -2,8 +2,8 @@
   "version": 2,
   "builds": [
       {
-          "src": "index.js", // specify file to convert to a serverless function
-          "use": "@vercel/node" // specify the NPM module that is used for the build
+          "src": "index.js",
+          "use": "@vercel/node" 
       }
   ],
   "routes": [
